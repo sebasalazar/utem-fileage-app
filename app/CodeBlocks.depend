@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1759350839 source:/home/seba/sources/UTEM/utem-fileage-app/app/Edad.cpp
+	"Edad.h"
+
+1759351001 /home/seba/sources/UTEM/utem-fileage-app/app/Edad.h
+	<iostream>
+	<string>
+	<sstream>
+	<chrono>
+	<ctime>
+
+1759351797 source:/home/seba/sources/UTEM/utem-fileage-app/app/main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<boost/lockfree/queue.hpp>
+	<boost/unordered/concurrent_flat_map.hpp>
+	<atomic>
+	<optional>
+	<fstream>
+	<thread>
+	<vector>
+	<omp.h>
+	<cmath>
+	"Edad.h"
+

@@ -1,0 +1,26 @@
+called: /usr/bin/g++
+	/home/seba/sources/UTEM/utem-fileage-app/app
+	g++
+	-g3
+	-Wall
+	-Wextra
+	-Wpedantic
+	-std=c++17
+	-c
+	main.cpp
+	-o
+	build/main.o
+
+called: /usr/bin/g++
+	/home/seba/sources/UTEM/utem-fileage-app/app
+	g++
+	-g3
+	-Wall
+	-Wextra
+	-Wpedantic
+	-std=c++17
+	-o
+	dist/programa
+	build/main.o
+	-lm
+
